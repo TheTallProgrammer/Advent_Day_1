@@ -1,5 +1,5 @@
 mod functions;
 
 fn main() {
-    functions::read_file();
+    functions::calc_measurements();
 }
