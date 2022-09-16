@@ -1,5 +1,5 @@
 mod functions;
 
 fn main() {
-    functions::test_print();
+    functions::read_file();
 }
