@@ -20,5 +20,5 @@ pub fn count_measurements(){
     for i in 0..depth_measurements.len()-1{ // Goes out of bounds without the -1
         if depth_measurements[i+1] > depth_measurements[i] {increments+=1;} // Increment if the value is greater
     }
-    println!("Total change in measurements: {increments}");
+    println!("Incrementsgit: {increments}");
 } // End of count_measurements
