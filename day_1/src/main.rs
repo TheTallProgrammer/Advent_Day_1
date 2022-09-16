@@ -1,5 +1,5 @@
 mod functions;
 
 fn main() {
-    functions::calc_measurements();
+    functions::count_measurements();
 }
