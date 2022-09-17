@@ -16,7 +16,7 @@ pub fn read_file() -> Vec<i32>{
 
 pub fn count_measurements(){
     let mut increments:i32 = 0;
-    let depth_measurements: Vec<i32> = read_file(); // Call function read_file and input that vector to the new vector
+    let depth_measurements: Vec<i32> = read_file(); 
     for i in 1..depth_measurements.len()-1{if depth_measurements[i+1] > depth_measurements[i] {increments+=1;}}
     println!("Increments in measurements: {increments}");
 } // End of count_measurements
